@@ -1,0 +1,36 @@
+{
+  "name": "basichtml-elements",
+  "version": "0.0.1",
+  "description": "Some elements that extend basicHTML's HTMLElement",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "nyc --reporter=html mocha --require test/load.js --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/richardkazuomiller/basicHTML-elements.git"
+  },
+  "keywords": [
+    "basicHTML",
+    "HTML",
+    "custom-elements"
+  ],
+  "author": "Ricky Miller <ricky@ricky.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardkazuomiller/basicHTML-elements/issues"
+  },
+  "homepage": "https://github.com/richardkazuomiller/basicHTML-elements#readme",
+  "devDependencies": {
+    "assert": "1.4.1",
+    "mocha": "5.0.0",
+    "nyc": "11.4.1",
+    "sinon": "4.2.2"
+  },
+  "peerDependencies": {
+    "basichtml": "^0.12.1"
+  }
+}
