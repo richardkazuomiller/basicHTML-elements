@@ -19,5 +19,5 @@ describe('HTMLInputElement',() => {
       input.setAttribute('value','piyo');
       assert.equal(input.value,'piyo');
     });
-  })
+  });
 });
