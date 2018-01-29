@@ -28,7 +28,8 @@
     "assert": "1.4.1",
     "mocha": "5.0.0",
     "nyc": "11.4.1",
-    "sinon": "4.2.2"
+    "sinon": "4.2.2",
+    "basichtml": "0.12.1"
   },
   "peerDependencies": {
     "basichtml": "^0.12.1"
