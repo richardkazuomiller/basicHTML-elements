@@ -29,7 +29,7 @@ describe('HTMLButtonElement',() => {
     it('should work if not in a form',() => {
       let clicked = false;
       document.body.innerHTML = `<button>Foo</button>`;
-      document.querySelector('button').onclick = (e) => {
+      document.querySelector('button').onclick = () => {
         clicked = true;
       };
       document.querySelector('button').click();
