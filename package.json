@@ -1,6 +1,6 @@
 {
   "name": "basichtml-elements",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Some elements that extend basicHTML's HTMLElement",
   "main": "index.js",
   "directories": {
